@@ -1,11 +1,9 @@
 """ Exercício 2: Calcula a média"""
-nota_1 = int(input("Digite a primeira nota: "))
-nota_2 = int(input("Digite a segunda nota: "))
-nota_3 = int(input("Digite a terceira nota: "))
-nota_4 = int(input("Digite a quarta nota: "))
+nota_1 = int(input("Digite a primeira nota:"))
+nota_2 = int(input("Digite a segunda nota:"))
+nota_3 = int(input("Digite a terceira nota:"))
+nota_4 = int(input("Digite a quarta nota:"))
 
-notas = {nota_1, nota_2, nota_3, nota_4}
+media = (nota_1 + nota_2 + nota_3 + nota_4) / 4
 
-media = (nota_1 + nota_2 + nota_3 + nota_4) / len(notas)
-
-print("A média aritmética é ", media)
+print("A média aritmética é", media)
