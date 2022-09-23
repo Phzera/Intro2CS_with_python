@@ -11,10 +11,14 @@ raiz1 = (-b  + math.sqrt(delta)) / (2 * a)
 raiz2 = (-b - math.sqrt(delta)) / (2 * a)
 
 if delta == 0:
-    print("A única raiz é: ", raiz1)
+    print("a raiz desta equação é", raiz1)
 else:
     if (delta < 0):
-        print("Esta equação não possuí raízes reais")
+        print("esta equação não possui raízes reais")
+    if (raiz1 == raiz2):
+        print("a raiz dupla desta equação é", raiz1)
     else:
-        print("A primeira raiz é: ", raiz1)
-        print("A segunda raiz é: ", raiz2)
+        if (raiz1 < raiz2):
+            print("as raízes da equação são", raiz1, "e", raiz2)
+        else:
+            print("as raízes da equação são", raiz2, "e", raiz1)
