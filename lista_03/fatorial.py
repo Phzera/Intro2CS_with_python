@@ -4,13 +4,12 @@ Escreva um programa que receba um número natural n
 na  entrada e imprima  n! (fatorial) na saída
 """
 
-input = int(input('Digite o valor de n: '))
+entrada = int(input('Digite o valor de n: '))
 
 i = 1
-output = 1
+SAIDA = 1
 
-while i <= input:
-    output = output * i
+while i <= entrada:
+    SAIDA = SAIDA * i
     i += 1
-
-print(output)
+print(SAIDA)
