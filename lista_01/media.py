@@ -1,4 +1,5 @@
 """ Exercício 2: Calcula a média"""
+
 nota_1 = int(input("Digite a primeira nota:"))
 nota_2 = int(input("Digite a segunda nota:"))
 nota_3 = int(input("Digite a terceira nota:"))
